@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{9482E85E-2742-432B-B48D-053623C6FDA1}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{9482E85E-2742-432B-B48D-053623C6FDA1}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{9482E85E-2742-432B-B48D-053623C6FDA1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9482E85E-2742-432B-B48D-053623C6FDA1}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Andres_Ibarra" ID="{C4BC62E2-CEC2-4DF6-9B09-A0B21426DA8C}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

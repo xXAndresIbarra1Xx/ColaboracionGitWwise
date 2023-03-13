@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4BC62E2-CEC2-4DF6-9B09-A0B21426DA8C}" SchemaVersion="110" RootDocumentID="{9482E85E-2742-432B-B48D-053623C6FDA1}" ParentDocumentID="{9482E85E-2742-432B-B48D-053623C6FDA1}">
+	<AudioObjects>
+		<WorkUnit Name="Andres_Ibarra" ID="{C4BC62E2-CEC2-4DF6-9B09-A0B21426DA8C}" OwnerID="{9482E85E-2742-432B-B48D-053623C6FDA1}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Andres_SFX" ID="{E40CAAFD-065D-4F22-9558-0B74E20DA9B5}" ShortID="443677095">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B095AA85-54E9-45B3-A032-C08F48F68334}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A514F9B-D2D9-43D9-BD5A-BF0D766AFCEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Fight, Impact, Punch, Face SND14118" ID="{29BBE79A-4AC1-4E61-A803-A96120A0E4DB}">
+							<Language>SFX</Language>
+							<AudioFile>Fight, Impact, Punch, Face SND14118.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="277402863"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Fight, Impact, Punch, Face SND14118" ID="{29BBE79A-4AC1-4E61-A803-A96120A0E4DB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
